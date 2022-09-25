@@ -1,0 +1,10 @@
+name: simple_screen
+description: A brick to create a simple screen.
+version: 0.0.1
+
+vars:
+  screen_name:
+    type: string
+    description: The name of your screen.
+    default: Home
+    prompt: What is the name of your screen?
